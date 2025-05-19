@@ -51,5 +51,5 @@
 ## Run
 
 ```bash
-python bot.py #or python3 bot.py
+python icameby.py #or python3 icameby.py
 ```
