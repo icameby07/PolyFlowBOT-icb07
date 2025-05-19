@@ -41,8 +41,10 @@ class Polyflow:
         console.print(f"[bold cyan][{timestamp}][/bold cyan] {message}", highlight=False)
 
     def welcome(self):
-        panel_text = "[bold green]🌟 AUTO CLAIM POLYFLOW BOT[/bold green]
-[bold cyan]Powered by iCameBy07[/bold cyan]"
+        panel_text = """
+[bold green]🌟 AUTO CLAIM POLYFLOW BOT[/bold green]
+[bold cyan]Powered by iCameBy07[/bold cyan]
+"""
         console.print(Panel(panel_text, title="WELCOME", expand=False))
 
     def format_seconds(self, seconds):
