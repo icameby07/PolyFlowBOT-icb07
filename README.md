@@ -25,7 +25,7 @@
    git clone https://github.com/icameby07/PolyFlowBOT-icb07.git
    ```
    ```bash
-   cd PolyFlow-BOT
+   cd PolyFlowBOT-icb07
    ```
 
 2. **Install Requirements:**
