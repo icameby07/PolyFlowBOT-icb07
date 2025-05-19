@@ -97,8 +97,7 @@ class Polyflow:
             console.print(table)
             delay = 5
             while delay > 0:
-                console.print(f"[yellow]Menunggu {self.format_seconds(delay)} sebelum loop ulang...[/yellow]", end="
-")
+                console.print(f"[yellow]Menunggu {self.format_seconds(delay)} sebelum loop ulang...[/yellow]", end="\r")
                 await asyncio.sleep(1)
                 delay -= 1
 
