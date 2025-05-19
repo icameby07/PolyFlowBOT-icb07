@@ -6,4 +6,3 @@ eth-account
 eth-utils
 colorama
 pytz
-rich
